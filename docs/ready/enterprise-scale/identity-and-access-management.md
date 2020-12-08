@@ -54,7 +54,7 @@ _Figure 1: Identity and access management._
 - Use Azure AD PIM access reviews to periodically validate resource entitlements. Access reviews are part of many compliance frameworks. As a result, many organizations will already have a process in place to address this requirement.
 - Integrate Azure AD logs with the platform-central [Azure Monitor](/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor). Azure Monitor allows for a single source of truth around log and monitoring data in Azure, which gives organizations cloud-native options to meet requirements around log collection and retention.
 - If any data sovereignty requirements exist, custom user policies can be deployed to enforce them.
-- Use custom RBAC role definitions within the Azure AD tenant while you consider the following key roles:
+- Use build-in and custom RBAC role definitions within the Azure AD tenant while you consider the following key roles:
 
 | Role | Usage | Actions | No actions |
 |---|---|---|---|
